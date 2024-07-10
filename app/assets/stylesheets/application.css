@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+ .question-box, .answer-box {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.question-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.answer-box {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.question-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
